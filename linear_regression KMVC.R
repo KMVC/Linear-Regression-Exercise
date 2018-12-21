@@ -248,6 +248,6 @@ coef(summary(energyprediction5))
 energyprediction6 = lm(energy ~ region + metro + density* area, data = states.data)
 summary(energyprediction6)
 plot(energyprediction6)
-#there are differences between the regions ( the level West is not shown as it is included in the intercept). The South's estimate seems to be 
+#there are differences between the regions ( the level "West" is not shown as it is included in the intercept). The South's estimate seems to be 
 #quite high, with a larger t value than the East or the Midwest, but none of the regions are increasing the predictive power of the model.
 
